@@ -1,3 +1,5 @@
+# cloned from https://github.com/conduktor/kafka-stack-docker-compose
+
 [![Actions Status](https://github.com/conduktor/kafka-stack-docker-compose/workflows/CI/badge.svg)](https://github.com/conduktor/kafka-stack-docker-compose/actions)
 
 # An open-source project by   [![Conduktor.io](https://www.conduktor.io/images/logo.svg)](https://conduktor.io/)
