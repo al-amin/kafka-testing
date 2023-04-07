@@ -43,3 +43,6 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 #### Kafka producer CLI - craeting a producer
 ```kafka-console-producer.sh --broker-list YOUR_IP_ADDRESS:9092 --topic TOPIC_NAME```
 ```kafka-console-producer.sh --broker-list 192.168.0.187:9092 --topic first_topic```
+#### Now add acks property by
+```kafka-console-producer.sh --broker-list 192.168.0.187:9092 --topic first_topic --producer-property acks=all```
+
