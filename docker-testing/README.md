@@ -40,3 +40,6 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 #### Delete a topic
 ```kafka-topics.sh --zookeeper YOUR_IP_ADDRESS:2181 --topic TOPIC_NAME --delete```
 ```kafka-topics.sh --zookeeper 192.168.0.187:2181 --topic second_topic --delete```
+#### Kafka producer CLI - craeting a producer
+```kafka-console-producer.sh --broker-list YOUR_IP_ADDRESS:9092 --topic TOPIC_NAME```
+```kafka-console-producer.sh --broker-list 192.168.0.187:9092 --topic first_topic```
