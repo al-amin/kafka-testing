@@ -35,6 +35,9 @@ Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or [This
 10.  - then solve it by this [stackoverflow](https://stackoverflow.com/questions/67485503/keepererrorcode-unimplemented-for-kafka-manager-mutex)
 
 
+#### Now create a topic with 2 partitions - after visiting localhost:8080 -> topics-> create
+
+
 ## kafka
 From Terminal run the following to create a kafka docker image
 
