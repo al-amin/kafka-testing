@@ -49,3 +49,11 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 ## Kafka consumer CLI - craeting a consumer
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic``` - its only from point in time
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --from-beginning``` - its all way from the beginning ;)
+
+
+## Docker stop container
+To check -> ```docker ps```
+```docker stop my_container```
+In our case -> ```docker stop kafka```
+In our case -> ```docker stop zookeeper```
+
