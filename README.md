@@ -22,7 +22,7 @@ From Terminal run the following to create a zookeeper docker image
 ```docker run -d --name zookeeper -p 2181:2181 --restart=unless-stopped wurstmeister/zookeeper```
 
 # Installing kafka manager from CMAK
-Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or This directory \
+Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or [This directory](https://github.com/al-amin/kafka-testing/tree/main/CMAK-master) \
 
 
 ## kafka
