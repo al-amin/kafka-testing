@@ -1,5 +1,10 @@
 # kafka-testing
 
+# [how-to-install-homebrew-on-Macbook-M1](https://www.igeeksblog.com/how-to-install-homebrew-on-mac/)
+
+# Install java 11 using brew
+```brew install java11```
+
 # Install python packages
 Install virtual env from [link](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) \
 And then install all the required packages using the following \
@@ -82,4 +87,4 @@ To check -> ```docker ps```\
 In our case -> ```docker start kafka```\
 In our case -> ```docker start zookeeper```
 
-# [how-to-install-homebrew-on-Macbook-M1](https://www.igeeksblog.com/how-to-install-homebrew-on-mac/)
+
