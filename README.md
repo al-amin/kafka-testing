@@ -30,7 +30,9 @@ Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or [This
 5. ```unzip cmak-3.0.0.7.zip```
 6. Change the configuration in application.conf using  ```nano conf/application.conf```
 7. Then change to ```cmak.zkhosts="127.0.0.1:2181"``` or localhost
-8. - Start the server using ```bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080```
+8. Start the server using ```bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080```
+9.  - if you face issues (Yikes! KeeperErrorCode = Unimplemented) 
+10.  - then solve it by this [stackoverflow](https://stackoverflow.com/questions/67485503/keepererrorcode-unimplemented-for-kafka-manager-mutex)
 
 
 ## kafka
