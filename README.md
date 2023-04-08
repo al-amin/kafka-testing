@@ -43,15 +43,18 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 #### Delete a topic
 ```kafka-topics.sh --zookeeper YOUR_IP_ADDRESS:2181 --topic TOPIC_NAME --delete```\
 ```kafka-topics.sh --zookeeper 192.168.0.187:2181 --topic second_topic --delete```
-## Kafka producer CLI - craeting a producer
+## Kafka producer CLI - creating a producer
 ```kafka-console-producer.sh --broker-list YOUR_IP_ADDRESS:9092 --topic TOPIC_NAME```\
 ```kafka-console-producer.sh --broker-list 192.168.0.187:9092 --topic first_topic```
 #### Now add acks property by
 ```kafka-console-producer.sh --broker-list 192.168.0.187:9092 --topic first_topic --producer-property acks=all```
 
-## Kafka consumer CLI - craeting a consumer
+## Kafka consumer CLI - creating a consumer
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic``` - its only from point in time\
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --from-beginning``` - its all way from the beginning ;)
+
+## Kafka consumer CLI - creating a consumers in groups
+```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-first-applicatoin``` - now if the producer send message, all of the consumers on this group will receive the message based on the partitions
 
 
 ## Docker STOP container
