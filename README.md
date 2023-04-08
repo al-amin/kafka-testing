@@ -57,6 +57,8 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-first-applicatoin``` - now if the producer send message, all of the consumers on this group will receive the message based on the partitions \
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-second-applicatoin --from-beginning``` - it will read all way from the beginning
 
+## Kafka consumers groups CLI - managing consumers groups
+```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --list`` - It will show all the consumers gourps
 
 ## Docker STOP container
 To check -> ```docker ps```\
