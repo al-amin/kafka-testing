@@ -61,6 +61,9 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 ```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --list``` - It will show all the consumers gourps (**NOTE**: By default when a consumer is being created, one random group also created)\
 ```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --describe --group my-second-application``` - It will show details of the ```my-second-application``` group
 
+## Kafka consumers groups CLI - resetting offsets
+```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --group my-second-applicatoin --reset-offsets --to-earliest --execute --topic first_topic``` - will reset from earliest/beginning
+
 ## Docker STOP container
 To check -> ```docker ps```\
 ```docker stop my_container```\
