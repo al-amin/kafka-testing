@@ -23,6 +23,7 @@ i.e-> ```docker run -d --name kafka -p 9092:9092 -e KAFKA_ADVERTISED_HOST_NAME=1
 ```docker -ps```
 
 ## Connect to kafka bash
+
 From terminal run the followings
 
 ```docker exec -it kafka /bin/bash```
