@@ -25,7 +25,11 @@ From Terminal run the following to create a zookeeper docker image
 Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or [This directory](https://github.com/al-amin/kafka-testing/tree/main/CMAK-master) \
 1. ```cd CMAK-master```
 2. ```./sbt clean dist```
-3. 
+3. ```cd target```
+4. ```cd universal```
+5. ```unzip cmak-3.0.0.7.zip```
+6. Change the configuration in application.conf using  ```nano conf/application.conf```
+7. Then change to ```cmak.zkhosts="127.0.0.1:2181"```
 
 
 ## kafka
