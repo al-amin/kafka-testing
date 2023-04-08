@@ -1,5 +1,10 @@
 # kafka-testing
 
+# Install python packages
+Install virtual env from [link](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) \
+And then install all the required packages using the following \
+```pip install -r requirements.txt```
+
 # Installing kafka and zookeeper using docker
 
 ## To know ip address in mac
