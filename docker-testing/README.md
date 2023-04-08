@@ -27,7 +27,7 @@ From terminal run the followings
 
 ```cd opt/kafka/bin```
 
-```kafka-topics.sh --create --topic TOPIC_NAME --zookeeper YOUR_IP_ADDRESS:2181 --partitions 3 --replication-factor 1```\
+```kafka-topics.sh --create --topic TOPIC_NAME --zookeeper YOUR_IP_ADDRESS:2181 --partitions 3 --replication-factor 1```
 
 In my case (from Macbook Pro)-> \
 i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:2181 --partitions 3 --replication-factor 1```
