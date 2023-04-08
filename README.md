@@ -23,6 +23,9 @@ From Terminal run the following to create a zookeeper docker image
 
 # Installing kafka manager from CMAK
 Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or [This directory](https://github.com/al-amin/kafka-testing/tree/main/CMAK-master) \
+1. ```cd CMAK-master```
+2. ```./sbt clean dist```
+3. 
 
 
 ## kafka
