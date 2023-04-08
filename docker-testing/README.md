@@ -34,7 +34,7 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 
 #### To check or list the topics:
 ```kafka-topics.sh --zookeeper YOUR_IP_ADDRESS:2181 --list```\
-```kafka-topics.sh --zookeeper 192.168.0.187:2181 --list``` \
+```kafka-topics.sh --zookeeper 192.168.0.187:2181 --list``` 
 #### To check the details of a topic:
 ```kafka-topics.sh --zookeeper 192.168.0.187:2181 --topic first_topic --describe``` (YOUR_IP_ADDRESS)
 #### Delete a topic
