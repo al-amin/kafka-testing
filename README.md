@@ -81,3 +81,5 @@ To check -> ```docker ps```\
 ```docker start my_container```\
 In our case -> ```docker start kafka```\
 In our case -> ```docker start zookeeper```
+
+# [how-to-install-homebrew](https://www.igeeksblog.com/how-to-install-homebrew-on-mac/)
