@@ -3,7 +3,8 @@
 # [how-to-install-homebrew-on-Macbook-M1](https://www.igeeksblog.com/how-to-install-homebrew-on-mac/)
 
 # Install java 11 using brew
-```brew install java11```
+```brew install java11```\
+[ref](https://medium.com/@kirebyte/using-homebrew-to-install-java-jdk11-on-macos-2021-4a90aa276f1c)
 
 # Install python packages
 Install virtual env from [link](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) \
