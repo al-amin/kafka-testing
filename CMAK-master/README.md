@@ -1,4 +1,4 @@
-# [Cloned from](https://github.com/yahoo/CMAK)
+# Cloned from this [link](https://github.com/yahoo/CMAK)
 
 CMAK (Cluster Manager for Apache Kafka, previously known as Kafka Manager)
 =============
