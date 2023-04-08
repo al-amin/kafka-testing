@@ -54,11 +54,12 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --from-beginning``` - its all way from the beginning ;)
 
 ## Kafka consumer CLI - creating a consumers in groups
-```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-first-applicatoin``` - now if the producer send message, all of the consumers on this group will receive the message based on the partitions \
-```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-second-applicatoin --from-beginning``` - it will read all way from the beginning
+```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-first-application``` - now if the producer send message, all of the consumers on this group will receive the message based on the partitions \
+```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --group my-second-application --from-beginning``` - it will read all way from the beginning
 
 ## Kafka consumers groups CLI - managing consumers groups
-```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --list``` - It will show all the consumers gourps
+```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --list``` - It will show all the consumers gourps\
+```kafka-consumer-groups.sh --bootstrap-server 192.168.0.187:9092 --describe --group my-second-application``` - It will show details of the ```my-second-application``` group
 
 ## Docker STOP container
 To check -> ```docker ps```\
