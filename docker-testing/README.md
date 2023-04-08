@@ -52,8 +52,8 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 
 
 ## Docker stop container
-To check -> ```docker ps```
-```docker stop my_container```
-In our case -> ```docker stop kafka```
-In our case -> ```docker stop zookeeper```
+To check -> ```docker ps```\
+```docker stop my_container```\
+In our case -> ```docker stop kafka```\
+In our case -> ```docker stop zookeeper```\
 
