@@ -29,7 +29,8 @@ Just follow the steps from [here GitHub](https://github.com/yahoo/CMAK) or [This
 4. ```cd universal```
 5. ```unzip cmak-3.0.0.7.zip```
 6. Change the configuration in application.conf using  ```nano conf/application.conf```
-7. Then change to ```cmak.zkhosts="127.0.0.1:2181"```
+7. Then change to ```cmak.zkhosts="127.0.0.1:2181"``` or localhost
+8. - Start the server using ```bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080```
 
 
 ## kafka
