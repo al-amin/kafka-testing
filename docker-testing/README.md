@@ -51,9 +51,14 @@ i.e-> ```kafka-topics.sh --create --topic first_topic --zookeeper 192.168.0.187:
 ```kafka-console-consumer.sh --bootstrap-server 192.168.0.187:9092 --topic first_topic --from-beginning``` - its all way from the beginning ;)
 
 
-## Docker stop container
+## Docker STOP container
 To check -> ```docker ps```\
 ```docker stop my_container```\
 In our case -> ```docker stop kafka```\
 In our case -> ```docker stop zookeeper```
 
+## Docker START container
+To check -> ```docker ps```\
+```docker start my_container```\
+In our case -> ```docker start kafka```\
+In our case -> ```docker start zookeeper```
